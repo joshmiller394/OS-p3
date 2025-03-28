@@ -363,9 +363,6 @@ void buddy_destroy(struct buddy_pool *pool)
     memset(pool, 0, sizeof(struct buddy_pool));
 }
 
-/******************************************************************************
- * Example "myMain" that runs a few simple tests. You can add more for coverage.
- ******************************************************************************/
 int myMain(int argc, char** argv)
 {
     (void) argc;
